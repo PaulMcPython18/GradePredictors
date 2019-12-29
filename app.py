@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 data = keras.datasets.reuters
 word_index = data.get_word_index()
-model = keras.models.load_model('/users/programming/Desktop/student-grade.h5')
+model = keras.models.load_model('student-grade.h5')
 data = keras.datasets.reuters
 
 def review_encode(s):
